@@ -20,7 +20,7 @@
       <http-method>POST</http-method>
     </web-resource-collection>
     <auth-constraint>
-      <role-name>tomcat</role-name>
+      <role-name>tomcat</role-name> <!-- No connectat a bbdd / S'informacio d'usuaris (ROLE) se troba a l'arxiu tomcat-users.xml /usuari i password = tomcat -->
     </auth-constraint>
 
     <user-data-constraint>
